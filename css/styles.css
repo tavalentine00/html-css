@@ -1,0 +1,131 @@
+
+video {
+  width: 80%;
+  height: auto;
+}
+.coffee-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  float: left;
+  object-fit: cover;
+}
+.tyler-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.twitter-handle {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+  font-weight: bold;
+}
+.subscribe-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.join-button {
+  background-color: white;
+  color: blue;
+  border: 10px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.tweet-button {
+  background-color: lightblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 10px;
+}
+
+p {
+  color: orange;
+}
+
+
+
+a[target="_blank"] {
+  color: red;
+}
+
+a[href="google"] {
+  color: green;
+}
+
+h1 {
+  color: green;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.highlight {
+  color: deeppink
+}
+
+#products {
+  color: green
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  box-shadow: 0 0 30px green
+}
+
+body {
+  margin: 10px;
+}
+
+table, td, th {
+  /* I've set all the borders using the border property
+  and then removed the left and right border. Alternatively,
+  we could set border-top and border-bottom properties but
+  that would result in the repetition of the color. If we
+  want to change the border color, we have to change it in
+  two places. */
+  border: 1px solid #c4dcf3;
+  border-left: 0;
+  border-right: 0;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+}
+
+th {
+  background-color: #427fef;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+tfoot {
+  text-align: left;
+  background-color: dodgerblue;
+}

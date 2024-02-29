@@ -2,143 +2,56 @@
 <html lang="en">
   <head>
     <title>My first web page</title>
-    <style>
-      video {
-        width: 100%;
-        height: auto;
-      }
-      .coffee-image {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-right: 10px;
-        float: left;
-        object-fit: cover;
-      }
-      .tyler-image {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        float: left;
-        margin-right: 10px;
-        object-fit: cover;
-      }
-      .twitter-handle {
-        font-weight: bold;
-      }
-      em {
-        font-style: italic;
-        font-weight: bold;
-      }
-      .subscribe-button {
-        background-color: red;
-        color: white;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      .join-button {
-        background-color: white;
-        color: blue;
-        border: 10px;
-        border-color: blue;
-        border-style: solid;
-        border-width: 1px;
-        padding: 10px 20px;
-        border-radius: 2px;
-        cursor: pointer;
-      }
-      .tweet-button {
-        background-color: lightblue;
-        color: white;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 15px;
-        cursor: pointer;
-      }
-      ul {
-        list-style-type: none;
-      }
-      table,
-      td,
-      th {
-        border: 1px solid gray;
-        border-collapse: collapse;
-        padding: 5px;
-      }
-      tfoot {
-        text-align: left;
-      }
-    </style>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Heading 1</h1>
-    <a href="company/about.html">About</a>
-    <a href="images/TylerPicture.jpg">My Photo</a>
-    <a href="#section-css">CSS</a>
     <a href="https://google.com" target="_blank">Google</a>
-    <a href="mailto:tavalentine09@gmail.com">Email me</a>
-    <h2>HTML</h2>
-    <video controls autoplay loop src="videos/ocean.mp4">
-      Your browser doesn't support videos.
-    </video>
-    <audio src=""></audio>
-    <ul>
-      <li>About me</li>
-      <li>Courses</li>
-      <ul>
-        <li>HTML</li>
-        <li>JavaScript</li>
-        <li>Git</li>
-      </ul>
-      <li>Subscribe</li>
-      <li>Contact me</li>
-    </ul>
-    <ol>
-      <li>Preheat the oven.</li>
-      <li>Place the ingredients on the crust.</li>
-      <li>Put the pizza in the over for 20 minutes.</li>
-    </ol>
-    <dl>
-      <dt>Title</dt>
-      <dd>The Ultimate HTML and CSS Course</dd>
-      <dt>Author</dt>
-      <dd>Tyler Valentine</dd>
-      <dt>Skills</dt>
-      <dd>HTML</dd>
-      <dd>CSS</dd>
-      <dd>Responsive Design</dd>
-      <dd>Search Engine Optimization</dd>
-    </dl>
-    <h3>Code</h3>
-    <h3>Exercise</h3>
-    <h2>CSS</h2>
-    <p>CSS tutorial</p>
+    <section id="products">
+      <article class="product"></article>
+      <article class="product"></article>
+      <article class="product"></article>
+    </section>
+    <article>
+      <h1 class="highlight" id="products">hello</h1>
+    </article>
+    <div class="box">
+      <h1>Heading</h1>
+    </div>
     <table>
       <thead>
         <tr>
-          <th colspan="2">Expenses</th>
-        </tr>
-        <tr>
-          <th>Category</th>
-          <th>Amount</th>
+          <th>Country</th>
+          <th>OrderID</th>
+          <th>Order Amount</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Marketing</td>
-          <td>$100</td>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$1,300</td>
         </tr>
         <tr>
-          <td>Accounting</td>
-          <td>$200</td>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$700</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1000</td>
+          <td>$2,600</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1003</td>
+          <td>$3,000</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-          <th>Total</th>
-          <th>$300</th>
+          <td colspan="2">Total</td>
+          <td>$5,000</td>
         </tr>
       </tfoot>
     </table>
